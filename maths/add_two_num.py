@@ -11,9 +11,9 @@ def addTwoNumbers(l1, l2):
     :type l2: ListNode
     :rtype: ListNode
     """
-    if l1 == None:
+    if l1 is None:
         return l2
-    if l2 == None:
+    if l2 is None:
         return l1
     head = ListNode(-1)
     p = head
